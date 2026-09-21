@@ -60,4 +60,16 @@ public class SessionSeat {
     public SeatStatus getStatus() {
         return status;
     }
+
+    public boolean isAvailable() {
+        return status == SeatStatus.AVAILABLE;
+    }
+
+    public void reserve() {
+        if (!isAvailable()) {
+            throw new IllegalStateException("O assento " + seatCode + " ja esta reservado.");
+        }
+
+        status = SeatStatus.RESERVED;
+    }
 }
