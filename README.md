@@ -32,3 +32,6 @@ Depois, confira se a aplicação está ativa em `http://localhost:8080/api/healt
 - [Plano de commits](docs/planejamento/plano-de-commits.md)
 - [Arquitetura e sincronização](docs/concorrencia/arquitetura-e-sincronizacao.md)
 - [Protocolo HTTP e dados](docs/concorrencia/protocolo-e-dados.md)
+- [Roteiro de apresentação](docs/apresentacao/roteiro-de-apresentacao.md)
+- [Registro de uso de IA](docs/ia/registro-de-uso.md)
+- [Checklist da primeira entrega](docs/entrega/checklist-da-primeira-entrega.md)
