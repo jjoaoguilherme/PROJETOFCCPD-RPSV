@@ -8,7 +8,7 @@ Estas issues representam o quadro de trabalho que sera mantido no repositorio du
 | CC-02 | Modelar sessao, assento e reserva | Alta | CC-01 | `feat: modela dominio de sessoes e assentos` | Concluida |
 | CC-03 | Implementar reserva atomica de assentos | Alta | CC-02 | `feat: protege reserva concorrente de assentos` | Concluida |
 | CC-04 | Expor protocolo HTTP para consulta e reserva | Media | CC-03 | `feat: expoe api de consulta e reserva` | Concluida |
-| CC-05 | Demonstrar concorrencia com testes simultaneos | Alta | CC-03, CC-04 | `test: valida reservas simultaneas` | Planejada |
+| CC-05 | Demonstrar concorrencia com testes simultaneos | Alta | CC-03, CC-04 | `test: valida reservas simultaneas` | Concluida |
 | CC-06 | Documentar arquitetura, riscos e sincronizacao | Alta | CC-03 | `docs: explica arquitetura e controle de concorrencia` | Planejada |
 | CC-07 | Documentar protocolo e contrato de dados | Media | CC-04 | `docs: descreve protocolo http e dados trocados` | Planejada |
 | CC-08 | Preparar roteiro de demonstracao e diario de IA | Media | CC-05, CC-06, CC-07 | `docs: prepara demonstracao e registro de IA` | Planejada |
