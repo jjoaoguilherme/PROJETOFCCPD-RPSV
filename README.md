@@ -30,3 +30,4 @@ Depois, confira se a aplicação está ativa em `http://localhost:8080/api/healt
 - [Escopo da entrega de Concorrência](docs/planejamento/escopo-concorrencia.md)
 - [Backlog de issues simuladas](docs/planejamento/backlog-de-issues.md)
 - [Plano de commits](docs/planejamento/plano-de-commits.md)
+- [Arquitetura e sincronização](docs/concorrencia/arquitetura-e-sincronizacao.md)
