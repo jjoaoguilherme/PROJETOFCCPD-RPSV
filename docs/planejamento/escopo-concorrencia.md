@@ -36,7 +36,7 @@ Persistencia JPA / banco relacional
 
 | Decisao | Motivo |
 | --- | --- |
-| Java 21 e Spring Boot | Mantem a base compativel com a outra disciplina e facilita a API web. |
+| Java 17 e Spring Boot | Usa a versao Java disponivel no ambiente e mantem a base compativel com a outra disciplina. |
 | JPA e banco relacional | Permitem transacoes e restricoes de unicidade para proteger a reserva. |
 | HTTP e JSON | Sao simples de demonstrar, testar e documentar como protocolo de comunicacao. |
 | Bloqueio transacional por assento | Evita que duas tarefas confirmem o mesmo assento. |
