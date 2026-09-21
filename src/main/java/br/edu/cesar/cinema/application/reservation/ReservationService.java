@@ -37,7 +37,7 @@ public class ReservationService {
         validate(command);
 
         MovieSession session = movieSessionRepository.findById(command.sessionId())
-                .orElseThrow(() -> new IllegalArgumentException("Sessao nao encontrada."));
+                .orElseThrow(() -> new SessionNotFoundException(command.sessionId()));
 
         List<String> requestedSeats = command.seatCodes().stream()
                 .map(String::trim)

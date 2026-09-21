@@ -14,6 +14,8 @@ import br.edu.cesar.cinema.domain.SessionSeat;
 
 public interface SessionSeatRepository extends JpaRepository<SessionSeat, Long> {
 
+    List<SessionSeat> findAllByMovieSessionIdOrderBySeatCodeAsc(Long sessionId);
+
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     @Query("""
             select seat from SessionSeat seat
