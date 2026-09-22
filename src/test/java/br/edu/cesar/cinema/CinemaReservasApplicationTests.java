@@ -8,6 +8,5 @@ class CinemaReservasApplicationTests {
 
     @Test
     void contextLoads() {
-        // Confirma que a configuracao inicial da aplicacao pode ser criada.
     }
 }
