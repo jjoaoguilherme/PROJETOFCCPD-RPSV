@@ -25,7 +25,9 @@ Na primeira execucao, o Maven Wrapper baixa automaticamente a versao de Maven us
 
 Depois, confira se a aplicação está ativa em `http://localhost:8080/api/health`.
 
-## Planejamento
+## Documentação
+
+- [Guia da documentação da primeira entrega](docs/README.md)
 
 - [Escopo da entrega de Concorrência](docs/planejamento/escopo-concorrencia.md)
 - [Backlog de issues simuladas](docs/planejamento/backlog-de-issues.md)
