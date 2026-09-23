@@ -27,7 +27,6 @@ Depois, confira se a aplicação está ativa em `http://localhost:8080/api/healt
 
 ## Documentação
 
-- [Guia da documentação da primeira entrega](docs/README.md)
 - [Arquitetura e sincronização](docs/concorrencia/arquitetura-e-sincronizacao.md)
 - [Protocolo HTTP e dados](docs/concorrencia/protocolo-e-dados.md)
 - [Registro de uso de IA](docs/ia/registro-de-uso.md)
